@@ -1,6 +1,6 @@
 I ran into some issues pushing this to Git/Heroku.  Some issue with the Gemfile.lock having issues? Not sure what happened, but I just re-uploaded everything.
 
-Link to heroku app: http://obscure-beach-7632.herokuapp.com/
+Link to heroku app: http://fierce-waters-5844.herokuapp.com/
 
 Three ideas for apps:
 
