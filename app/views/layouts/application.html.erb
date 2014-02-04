@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="navbar">
+		<ul class="nav">
+			<li><a class="nav-link" href="https://plus.google.com/">+You</a></li>
+			<li><a class="nav-link" href="https://mail.google.com/">Gmail</a></li>
+			<li><a class="nav-link" href="https://www.google.com/imghp">Images</a></li>
+			<li class="nav-link" id="matrix">Box</li>
+			<li><a class="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&continue=https://www.google.com/">Sign in</a></li>
+		</ul>
+	</div>
+<%= yield %>
+	<div class="footbar">
+		<ul class="footer">
+			<li><a class="foot-link" href="https://www.google.com/intl/en/ads/">Advertising</a></li>
+			<li><a class="foot-link" href="https://www.google.com/services/">Business</a></li>
+			<li><a class="foot-link" href="https://www.google.com/intl/en/about/">About</a></li>
+			<div class="foot-right">
+				<li><a class="foot-link" href="https://www.google.com/intl/en/policies/">Privacy & Terms</a></li>
+				<li><a class="foot-link" id="rightmost" href="https://www.google.com/preferences">Settings</a></li>
+		</ul>
+	</div>
+</body>
+</html>

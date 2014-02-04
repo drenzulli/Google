@@ -1,0 +1,11 @@
+I ran into some issues pushing this to Git/Heroku.  Some issue with the Gemfile.lock having issues? Not sure what happened, but I just re-uploaded everything.
+
+Link to heroku app:
+
+Three ideas for apps:
+
+1) Personal website.  Space for a blog (mongoDB?), personal project, bio, etc.
+
+2) I would like to build out a sight that allows users to build out their own personal light show.  Essentially, they could use a series of colors and sounds to build out a lightshow.  The light show could then be queued to play out in real life (lights hooked up to arduino? sounds played through user computers?) and recorded for social sharing.
+
+3) I would like to build out an app that would allow call tracking similar to avidtrak.com.  Essentially, one end of the project would be to build a marketing page, and the other end would be to build out an application using a combination of Twilio and Google Analytics (SiteCatalyst as time permits).  On the marketing end, there would be a signup portion and user control options for call tracking.  On the Twilio end, there's figuring out call tracking, submitting records to Google Analytics for integration, and other features as ideas come up.
